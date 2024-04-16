@@ -12,8 +12,8 @@ bisal_grp = "https://t.me/kingbjsschat"
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', ''))
-    API_HASH = str(getenv('API_HASH', ''))
+    API_ID = int(getenv('API_ID', '20574855'))
+    API_HASH = str(getenv('API_HASH', 'e06686961495ec9b96d9b47e2d92c214'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , '7109501064:AAEI7BWZoJFYhypbxketj88luB1qQTO9BNw'))
     name = str(getenv('name', 'FileStreamZBot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
